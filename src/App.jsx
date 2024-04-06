@@ -1,7 +1,8 @@
-import './App.css'
-import UseState from './hooks-contoh/UseState'
-import UseReducer from './hooks-contoh/UseReducer'
-import UseEffect from './hooks-contoh/UseEffect'
+// import UseState from './hooks-contoh/UseState'
+// import UseReducer from './hooks-contoh/UseReducer'
+// import UseEffect from './hooks-contoh/UseEffect'
+import UseLayoutEffect from './hooks-contoh/UseLayoutEffect'
+import "./App.css";
 
 function App() {
 
@@ -9,7 +10,8 @@ function App() {
         <div>
             {/* <UseState />/ */}
             {/* <UseReducer /> */}
-            <UseEffect />
+            {/* <UseEffect /> */}
+            <UseLayoutEffect />
         </div>
     )
 }

@@ -3,7 +3,8 @@ import "./App.css";
 // import UseReducer from './hooks-contoh/UseReducer'
 // import UseEffect from './hooks-contoh/UseEffect'
 // import UseLayoutEffect from "./hooks-contoh/UseLayoutEffect";
-import UseContext from "./hooks-contoh/UseContext";
+// import UseContext from "./hooks-contoh/UseContext";
+import UseRef from "./hooks-contoh/UseRef";
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       {/* <UseReducer /> */}
       {/* <UseEffect /> */}
       {/* <UseLayoutEffect /> */}
-      <UseContext />/
+      {/* <UseContext /> */}
+      <UseRef />
     </div>
   );
 }

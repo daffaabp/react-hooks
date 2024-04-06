@@ -7,7 +7,8 @@ import "./App.css";
 // import UseRef from "./hooks-contoh/UseRef";
 // import UseImperative from "./hooks-contoh/UseImperative";
 // import UseMemo from "./hooks-contoh/UseMemo";
-import UseCallback from "./hooks-contoh/UseCallback";
+// import UseCallback from "./hooks-contoh/UseCallback";
+import UseDebugValue from "./hooks-contoh/UseDebugValue";
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
       {/* <UseRef /> */}
       {/* <UseImperative /> */}
       {/* <UseMemo /> */}
-      <UseCallback />
+      {/* <UseCallback /> */}
+      <UseDebugValue />
     </div>
   );
 }

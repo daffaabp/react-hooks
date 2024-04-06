@@ -5,7 +5,8 @@ import "./App.css";
 // import UseLayoutEffect from "./hooks-contoh/UseLayoutEffect";
 // import UseContext from "./hooks-contoh/UseContext";
 // import UseRef from "./hooks-contoh/UseRef";
-import UseImperative from "./hooks-contoh/UseImperative";
+// import UseImperative from "./hooks-contoh/UseImperative";
+import UseMemo from "./hooks-contoh/UseMemo";
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
       {/* <UseLayoutEffect /> */}
       {/* <UseContext /> */}
       {/* <UseRef /> */}
-      <UseImperative />
+      {/* <UseImperative /> */}
+      <UseMemo />
     </div>
   );
 }

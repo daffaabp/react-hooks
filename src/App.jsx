@@ -9,7 +9,8 @@ import "./App.css";
 // import UseMemo from "./hooks-contoh/UseMemo";
 // import UseCallback from "./hooks-contoh/UseCallback";
 // import UseDebugValue from "./hooks-contoh/UseDebugValue";
-import UseId from "./hooks-contoh/UseId";
+// import UseId from "./hooks-contoh/UseId";
+import CustomHook from "./hooks-contoh/CustomHook";
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
       {/* <UseMemo /> */}
       {/* <UseCallback /> */}
       {/* <UseDebugValue /> */}
-      <UseId />
+      {/* <UseId /> */}
+      <CustomHook />
     </div>
   );
 }
